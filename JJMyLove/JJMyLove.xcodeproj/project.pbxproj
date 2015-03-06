@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883891291AA982C000E1F9C0 /* UITableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 883891281AA982C000E1F9C0 /* UITableViewDatasource.m */; };
+		8838912E1AA9846800E1F9C0 /* FDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838912C1AA9846800E1F9C0 /* FDTableViewController.m */; };
+		8838912F1AA9846800E1F9C0 /* FDTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8838912D1AA9846800E1F9C0 /* FDTableViewController.xib */; };
 		889EF64E1A63B92400E750E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889EF64D1A63B92400E750E5 /* main.m */; };
 		889EF6511A63B92400E750E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889EF6501A63B92400E750E5 /* AppDelegate.m */; };
 		889EF6541A63B92400E750E5 /* JJMyLove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 889EF6521A63B92400E750E5 /* JJMyLove.xcdatamodeld */; };
@@ -28,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883891271AA982C000E1F9C0 /* UITableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDatasource.h; sourceTree = "<group>"; };
+		883891281AA982C000E1F9C0 /* UITableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewDatasource.m; sourceTree = "<group>"; };
+		8838912B1AA9846800E1F9C0 /* FDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTableViewController.h; sourceTree = "<group>"; };
+		8838912C1AA9846800E1F9C0 /* FDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTableViewController.m; sourceTree = "<group>"; };
+		8838912D1AA9846800E1F9C0 /* FDTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTableViewController.xib; sourceTree = "<group>"; };
 		889EF6481A63B92400E750E5 /* JJMyLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJMyLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889EF64C1A63B92400E750E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889EF64D1A63B92400E750E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +70,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		883891261AA9829A00E1F9C0 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				883891271AA982C000E1F9C0 /* UITableViewDatasource.h */,
+				883891281AA982C000E1F9C0 /* UITableViewDatasource.m */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		8838912A1AA9842B00E1F9C0 /* FoundationVC */ = {
+			isa = PBXGroup;
+			children = (
+				8838912B1AA9846800E1F9C0 /* FDTableViewController.h */,
+				8838912C1AA9846800E1F9C0 /* FDTableViewController.m */,
+				8838912D1AA9846800E1F9C0 /* FDTableViewController.xib */,
+			);
+			path = FoundationVC;
+			sourceTree = "<group>";
+		};
 		889EF63F1A63B92400E750E5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 		889EF64A1A63B92400E750E5 /* JJMyLove */ = {
 			isa = PBXGroup;
 			children = (
+				8838912A1AA9842B00E1F9C0 /* FoundationVC */,
+				883891261AA9829A00E1F9C0 /* Datasource */,
 				889EF64F1A63B92400E750E5 /* AppDelegate.h */,
 				889EF6501A63B92400E750E5 /* AppDelegate.m */,
 				889EF6551A63B92400E750E5 /* ViewController.h */,
@@ -205,6 +234,7 @@
 				889EF65A1A63B92400E750E5 /* Main.storyboard in Resources */,
 				889EF65F1A63B92400E750E5 /* LaunchScreen.xib in Resources */,
 				889EF65C1A63B92400E750E5 /* Images.xcassets in Resources */,
+				8838912F1AA9846800E1F9C0 /* FDTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +255,9 @@
 				889EF6541A63B92400E750E5 /* JJMyLove.xcdatamodeld in Sources */,
 				889EF6511A63B92400E750E5 /* AppDelegate.m in Sources */,
 				889EF6571A63B92400E750E5 /* ViewController.m in Sources */,
+				883891291AA982C000E1F9C0 /* UITableViewDatasource.m in Sources */,
 				889EF64E1A63B92400E750E5 /* main.m in Sources */,
+				8838912E1AA9846800E1F9C0 /* FDTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +450,7 @@
 				889EF6701A63B92400E750E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889EF6711A63B92400E750E5 /* Build configuration list for PBXNativeTarget "JJMyLoveTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +459,7 @@
 				889EF6731A63B92400E750E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
